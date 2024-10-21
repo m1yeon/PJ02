@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+.h_wrap{height: 70px;}
+.height1{height: 500px; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,1) 100%);}
+header h1{width: auto !important;height: 45px;padding-top: 15px !important;padding-left: 15px;}
+header h1 img{width: auto; height: 100%;}
+.h_gnb{width: 60%;margin: 0px;position: absolute;left: 53%; transform: translateX(-50%);}
+.h_gnb > ul > li > a{font-size: 1rem;line-height: 70px;}
+.h_gnb .h_sub > li > a{font-size: 0.85rem;}
+.menu_btn, #search_btn{position: absolute;top: 15px;width: 25px!important;}
+#search_btn{right: 70px; padding: 8px; margin: 0px;}
+.menu_btn{display: block; right: 20px; }
+.menu_btn img{width: 100%;}
+
+
+/* 메인 서식 */
+/* 공통서식 */
+.title > h2{
+  font-size: 2.2rem;}
+.title > p{font-size: 0.95rem; padding-top: 20px; line-height: 25px;}
+.plus_btn{font-size: 0.85rem;padding: 10px 24px;}
+.btn01{
+  color: #fff; border: 1px solid #fff;
+  bottom: 70px; left: 50%; transform: translateX(-50%);
+}
+.btn02{color: #333; border: 1px solid #333;}
+
+/*1. 메인 슬라이드 */
+.main_slide > div > .slide_txt{width: 65%;text-align: center;}
+.main_slide > div .s_txt01{font-size: 3rem;
+padding-bottom: 35px;}
+.main_slide > div .s_txt02{font-size: 1.25rem; line-height: 145%;}
+.main_slide > div .s_txt03{font-size: 0.95rem;line-height: 150%;}
+.main_slide > div > img{width: auto;}
+.main_slide > .s_btn{width: 90%;}
+.main_slide > .s_btn > li{width: 50px;}
+.main_slide > .s_btn > li:first-child{left: 0px;}
+.main_slide > .s_btn > li:last-child{right: 0px;}
+
+/* 2. 대표브랜드 */
+/* .brand_wrap{height: 70vh;} */
+.brand_wrap { height: fit-content; }
+.brand{ position: relative; transform: none; top: auto; left: auto; margin: 100px auto; width: 92%; }
+.brand_slide_wrap{
+  height: 200px; 
+  padding: 110px 0px 10px 0px;  
+}
+.brand_slide{
+  width: 2580px; height: 200px;
+  gap: 20px;
+  left: -220px;
+}
+.brand_slide > li{
+  width: 200px; height: 200px;
+}
+.b_btn{
+  top: 75px;
+  bottom: auto; 
+  width: 50px; height: 50px;
+  background: none;
+}
+.b_lbtn{left: 0px;}
+.b_rbtn{right: auto; left: 70px;}
+.slide_bar{display: none;}
+
+/* 3. history */
+.history_wrap{height: 540px;}
+.history{width: 92%; padding: 70px 0px;}
+.history .bder, .history>ul{width: 92%;}
+.history .bder { top: 53%; height: 1.5px;}
+.history>ul { top: 50.5%;} 
+
+.history>ul>li>span:first-child { width: 8px; height: 8px;} 
+.history>ul>li>span:nth-child(2) { font-size: 16px; font-size: 1rem;} 
+.history>ul>li>span:last-child { font-size: 14px; font-size: 0.875rem;} 
+
+/* 4. 뉴스&공지 */
+.news_wrap{height: fit-content;}
+.news{
+  position: relative; transform: none; top: auto; left: auto; margin: 100px auto; width: 92%;  height: fit-content;
+}
+.n_nav > ul{padding: 25px 0px 40px 0px;}
+.n_nav > ul > li{margin-right: 20px;}
+.n_nav > ul > li > a{
+  font-size: 0.85rem;
+  padding: 10px 24px;
+}
+.n_list{
+  display: flex;
+  width: 100%;
+  gap: 2%;
+}
+.n_list > li{
+  width: 33.33%!important; height: 250px;
+  padding-bottom: 0%;
+  box-shadow: 0 0 6px 0px rgba(3,3,3,.20);
+}
+.n_list > li:first-child { display: none !important; }
+
+.n_list>li .n_txt01 {
+  font-size: 1.1rem;
+  -webkit-line-clamp: 1;
+}
+.n_list>li h3 {
+  -webkit-line-clamp:2;
+  font-size: 0.9rem;
+}
+.n_list>li .n_txt03 {font-size: 12px;}
+
+/* 5. ESG */
+.esg_wrap{height: 540px;}
+.esg > h2{ font-size: 120px; font-size: 7.5rem;}
+.esg > .esgP01{font-size: 17px; font-size: 1.063rem;}
+.esg > .esgP02{font-size: 14px; font-size: 0.875rem; width: 400px;}
+
+
+/* 6. 고객센터 */
+.tab_con_wrap {height: fit-content;}
+.tab_con { position: relative; left: 0; top: 0; margin: 0 auto; width: 92%; height: fit-content; transform: none; padding: 100px 0;}
+.tab {width: 100%; height: 400px;}
+
+.tab>li:first-child{margin-right: 150px;}
+.tab>li:nth-child(2){margin-right: 160px;}
+.tab>li>a{font-size: 0.85rem; padding: 10px 24px;}
+
+.tab>li>div{height: fit-content;}
+.tab>li>div h3{font-size: 36px; line-height: 140%;}
+.tab>li>div p{font-size: 1rem; line-height: 140%;}
+.tab>li>div>div{padding-left: 50px;}
+.tab>li>div .btn02 {position: relative; bottom: auto; top: 30px; padding: 8px 24px;}
+.tab>li img{height: 280px; margin-top: 95px;}
+
+/* footer */
+footer{padding: 70px 0;}
+.f_inner{width: 94%; margin: 0px auto;}
+
+/* 탑버튼, 문의버튼 */
+.f_btn > li > .button, .t_btn { width: 44px; height: 44px; line-height: 44px; font-size: 13px; font-size: 0.813rem; }
+}

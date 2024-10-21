@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동국제약</title>
+  <!-- 초기화 -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+
+  <!-- 공통서식 -->
+  <link rel="stylesheet" href="./css/base.css" type="text/css">
+
+  <!-- pc화면 해상도 서식 -->
+  <link rel="stylesheet" href="./css/PJ02_pc.css" type="text/css">
+
+  <!-- tablet화면 해상도 서식 -->
+  <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+
+  <!-- mobile화면 해상도 서식 -->
+  <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+
+  <!-- 폰트 어썸-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css">
+
+  <!-- 파비콘 -->
+  <link rel="icon" href="./images/dk_favicon.ico">
+</head>
+<body>
+<form action="search.php" name="search">
+  <!-- 헤더영역 -->
+  <header>
+    <div class="h_wrap">
+      <h1><a href="index.html">
+        <img src="./images/logo_white.png" alt="동국제약로고">
+        </a></h1>
+
+      <nav class="h_gnb">
+        <ul>
+          <li><a href="javascript:void(0);">&nbsp;기업 소개&nbsp;<span class>&#9660;</span></a>
+            <ul class="h_sub">
+              <li><a href="javascript:void(0);">&nbsp;&nbsp;&nbsp;&nbsp; 기업 개요 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+              <li><a href="javascript:void(0);">&nbsp;&nbsp; 공장 소개 &nbsp;&nbsp;</a></li>
+              <li><a href="javascript:void(0);">&nbsp;CI&nbsp;</a></li>
+              <li><a href="javascript:void(0);">&nbsp;IR&nbsp;</a></li> 
+            </ul>
+          </li>
+
+          <li><a href="javascript:void(0);">브랜드소개<span>&#9660;</span></a>
+            <ul class="h_sub">
+              <li><a href="javascript:void(0);">대표 브랜드</a></li>
+              <li><a href="javascript:void(0);">제품 검색</a></li>
+              <li><a href="javascript:void(0);">제품 &nbsp;소식</a></li>
+            </ul>
+          </li>
+
+          <li><a href="javascript:void(0);">ESG<span>&#9660;</span></a>
+            <ul class="h_sub">
+              <li><a href="javascript:void(0);">ESG 지향점</a></li>
+              <li><a href="javascript:void(0);">ESG 성과</a></li>
+              <li><a href="javascript:void(0);">사회 공헌</a></li>
+              <li><a href="javascript:void(0);">윤리경영</a></li>
+              <li><a href="javascript:void(0);">CP</a></li>
+            </ul>
+          </li>
+
+          <li><a href="javascript:void(0);">채용안내<span>&#9660;</span></a>
+            <ul class="h_sub">
+              <li><a href="javascript:void(0);">인재상</a></li>
+              <li><a href="javascript:void(0);">인사 &#8729; 복리후생</a></li>
+              <li><a href="javascript:void(0);">채용공고</a></li>
+            </ul>
+          </li>
+
+          <li><a href="javascript:void(0);">고객센터<span>&#9660;</span></a>
+            <ul class="h_sub">
+              <li><a href="javascript:void(0);">뉴스 &#8729; 공지</a></li>
+              <li><a href="javascript:void(0);">고객 상담 안내</a></li>
+              <li><a href="javascript:void(0);">온라인 문의하기</a></li>
+              <li><a href="javascript:void(0);">가까운 약국 찾기</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <input type="checkbox" id="search">
+      <label for="search" id="search_btn">
+        <img src="./images/search_btn.png" alt="검색버튼">
+      </label>
+  
+      <input type="checkbox" id="menu">
+      <label for="menu" class="menu_btn"><img src="./images/menu_btn_white.png" alt="메뉴버튼"></label>
+    </div> 
+  </header>
+
+  <!-- 메인영역 -->
+  <main>
+    <!-- 1. 메인 배너 -->
+    <article class="main_slide">
+      <h2>메인슬라이드</h2>
+
+      <!-- 자바스크립트 if문 실습예제_여행 에서 밑에 페이지 넘버 참고하기 -->
+      <div class="slide01">
+        <div class="slide_txt">
+          <span class="s_txt01">동국제약</span>
+          <span class="s_txt02">Our Passion Your Health</span >
+          <span class="s_txt03">우리에게 가장 중요한 것은 고객의 건강하고 행복한 삶입니다.<br> 고객을 향한 변치 않는 우리이 열정으로 더 건강한 내일을 만들어 갑니다.</span>
+        </div>
+        <div class="slide_shadow">&nbsp;</div>
+        <img src="./images/mbanner01.jpg" alt="배너1">
+      </div>
+
+      <div class="slide02">
+        <div class="slide_txt">
+          <span class="s_txt01">Since 1968</span>
+          <span class="s_txt02">50주년 기념관</span >
+          <span class="s_txt03">‘Human & Life’라는 기업이념 아래 지난 50년간<br>
+            생명 존중 및 건강한 국민생활 추구를 위해 걸어온 동국의 발자취</span>
+        </div>
+        <div class="slide_shadow">&nbsp;</div>
+        <img src="./images/mbanner02.jpg" alt="배너2">
+      </div>
+
+      <div class="slide02">
+        <div class="slide_txt">
+          <span class="s_txt01">연구개발</span>
+          <span class="s_txt02">연구 개발에 대한 끊임없는 열정으로<br>새로운 가치, 차별화된 제품 개발을 추구하고 있습니다.</span >
+          <span class="s_txt03">'사람중심의 연구개발'이라는 R&D slogan 하에 동국의 고유성을 부여할 수 있는 글로벌 수준의 연구역량을 보유한 R&D Center로 성장하기 위한 노력을 지속하고 있습니다.</span>
+        </div>
+        <div class="slide_shadow">&nbsp;</div>
+        <img src="./images/mbanner03.jpg" alt="배너3">
+      </div>
+
+      <!-- 좌/우 방향버튼 -->
+      <ul class="s_btn">
+        <li><img src="./images/left_btn_white.png" alt="왼쪽 버튼"></li>
+        <li><img src="./images/right_btn_white.png" alt="오른쪽 버튼"></li>
+      </ul>
+
+      <!-- 페이지 넘버 -->
+      <span></span>
+    </article>
+
+
+    <!-- 2. 대표 브랜드 -->
+    <section class="brand_wrap">
+      <h2>대표브랜드</h2>
+
+      <article class="brand title">
+        <h2>대표 브랜드</h2>
+        <p>동국제약의 대표 브랜드를 소개합니다.</p>
+        <div class="brand_slide_wrap">
+          <ul class="brand_slide">
+            <!-- 로고는 이미지 크기 맞추기 -->
+            <li class="insadol"><a href="javascript:void(0);" title="인사돌">
+              <img src="./images/brand_logo_insadol.png" alt="인사돌 로고">
+              <div class="white_bg">&nbsp;</div>
+            </a></li>
+            <li class="pandidil"><a href="javascript:void(0);" title="판시딜">
+              <img src="./images/brand_logo_pansidil.png" alt="판시딜 로고">
+              <div class="white_bg">&nbsp;</div>
+            </a></li>
+            <li class="sensia"><a href="javascript:void(0);" title="센시아">
+              <img src="./images/brand_logo_sensia.png" alt="센시아">
+            </a></li>
+            <li class="madecassol"><a href="javascript:void(0);" title="마데카솔">
+              <img src="./images/brand_logo_madecassol.png" alt="마데카솔">
+            </a></li>
+            <li class="feraminq"><a href="javascript:void(0);" title="훼라민큐">
+              <img src="./images/brand_logo_feraminq.png" alt="훼라민큐">
+            </a></li>
+            <li class="cheesen"><a href="javascript:void(0);" title="치센">
+              <img src="./images/brand_logo_cheesen.png" alt="치센">
+            </a></li>
+            <li class="caritopoten"><a href="javascript:void(0);" title="카리토포텐">
+              <img src="./images/brand_logo_caritopoten.png" alt="카리토포텐">
+            </a></li>
+            <li class="winflex"><a href="javascript:void(0);" title="윈플렉스">
+              <img src="./images/brand_logo_winflex.png" alt="윈플렉스">
+            </a></li>
+            <li class="oramedy"><a href="javascript:void(0);" title="오라메디">
+              <img src="./images/brand_logo_oramedy.png" alt="오라메디">
+            </a></li>
+            <li class="minetrol"><a href="javascript:void(0);" title="마인트롤">
+              <img src="./images/brand_logo_minetrol.png" alt="마인트롤">
+            </a></li>
+          </ul>
+        </div>
+
+        <!-- 좌/우 방향버튼 -->
+        <img src="./images/left_btn.png" alt="왼쪽 버튼" class="b_btn b_lbtn">
+        <img src="./images/right_btn.png" alt="오른쪽 버튼" class="b_btn b_rbtn">
+
+        <!-- 슬라이드바 -->
+        <div class="slide_bar"><div class="slide_bar_inner">&nbsp;</div></div>
+      </article>
+    </section>
+
+    <!-- 3. 50주년 기념관 -->
+    <section class="history_wrap">
+      <h2>50주년 기념관</h2>
+      <div></div>
+
+      <article class="history title title2">
+        <h2>50주년 기념관</h2>
+        <p>'HUMAN & LIFE'라는 기념 이념 아래 지난 50년간 생명 존중 및 건강한 국민생활 추구를 위해 걸어온 동국의 발자취</p>
+
+        <span class="bder">&nbsp;</span>
+        <ul>
+          <li>
+            <span>&nbsp;</span>
+            <span>1989.05</span>
+            <span>중앙연구소 설립</span>
+          </li>
+          <li>
+            <span>&nbsp;</span>
+            <span>1999.12</span>
+            <span>백만불 수출탑 수상</span>
+          </li>
+          <li>
+            <span>&nbsp;</span>
+            <span>2005.11</span>
+            <span>인사돌 플러스<br>2005올해의 브랜드 대상</span>
+          </li>
+          <li>
+            <span>&nbsp;</span>
+            <span>2017.12</span>
+            <span>한국 소비자 만족도<br>평가 대상(KCSGE)</span>
+          </li>
+        </ul>
+
+        <!-- <a href="#" title="50주념 기념관 바로가기" class="plus_btn btn01">자세히보기</a> -->
+      </article>
+      <a href="#" title="50주념 기념관 바로가기" class="plus_btn btn01">자세히보기</a>
+    </section>
+
+    <!-- 4. 뉴스&공지 -->
+    <section class="news_wrap">
+      <h2>뉴스&공지</h2>
+      <article class="news title">
+        <h2>뉴스 & 공지</h2>
+        <p>동국제약의 소식을 전해드립니다.</p>
+        <nav class="n_nav">
+          <ul>
+            <li><a href="javascript:void(0);" title="보도자료" class="n_act">보도자료</a></li>
+            <li><a href="javascript:void(0);" title="공지사항">공지사항</a></li>
+            <li><a href="javascript:void(0);" title="채용공고">채용공고</a></li>
+          </ul>
+        </nav>
+
+        <ul class="n_list">
+          <li class="total board">
+            <a href="#" title="보도자료">
+              <span class="n_txt01">메디컬 에스테틱 사업부 출범 기념 심포지엄 개최</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>(2024-10-11) 동국제약(대표이사 송준호)이 메디컬 에스테틱 사업부(dkma) 공식 출범을 기념해, 9월 21일 조선팰리스 서울 강남에서 심포지엄을 진행했다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total board">
+            <a href="#" title="보도자료">
+              <span class="n_txt01">‘마이핏 유기농 레몬즙 100’, 출시 3개월 만에 110만포 판매 돌파</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>‘마이핏 유기농 레몬즙 100’은 맛과 영양소 파괴를 최소화한 NFC 공법을 사용한 레몬 과즙 100% 제품으로, 하루 1포로 간편하게 레몬 한 개를 섭취할 수 있다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total board">
+            <a href="#" title="보도자료">
+              <span class="n_txt01">센텔리안24 ‘링클셀 코어 아이크림 Rx’ 리뉴얼 출시… 올리브영 특별 기획세트 선봬</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>동국제약(대표이사 송준호)이 더마코스메틱 브랜드 센텔리안24의 ‘링클셀 코어 아이크림 Rx’를 출시했다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total board">
+            <a href="#" title="보도자료">
+              <span class="n_txt01">‘동국제약과 함께하는 동행캠페인’, 2024년 하반기 참가자 모집</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>동국제약(대표이사 송준호)은 10월 24일(목), 강원도 춘천에 위치한 ‘제이드가든’에서 2024년 하반기 ‘동국제약과 함께하는 동행캠페인’을 진행한다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total notice">
+            <a href="#" title="공지사항">
+              <span class="n_txt01">동국제약 사칭 문자메시지 주의 안내문</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>최근 동국제약을 사칭한 문자메시지가 불특정 다수에게 발송되어 피해 발생이 우려되고 있습니다. 이와 관련하여 와래와 같이 안내 말씀을 드립니다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total notice">
+            <a href="#" title="공지사항">
+              <span class="n_txt01">노바티스와 '말단비대증 치료제' 특허 소송에서 승소</span>
+              <span class="n_txt02">20XX.XX.XX</span>
+              <h3>동국제약(대표이사 오흥주)은 장기서방형 주사제인 옥트레오티드 서방형 제제 제조방법에 관한 특허법원 무효소송에서 9월 27일 승소했다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total hire">
+            <a href="#" title="채용공고">
+              <span class="n_txt01">채용 절차</span>
+              <span class="n_txt02">채용 정보</span>
+              <h3>동국제약에 합류하는 여정을 소개합니다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+          <li class="total hire">
+            <a href="#" title="채용공고">
+              <span class="n_txt01">복리후생</span>
+              <span class="n_txt02">일하는 환경</span>
+              <h3>균형적 삶을 위한 건강, 여가, 성장, 행복을 지원합니다.</h3>
+              <span class="n_txt03">더보기</span>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 5. ESG -->
+    <section class="esg_wrap">
+      <h2>ESG</h2>
+      <div></div>
+      <article class="esg title title2">
+        <p class="esgP01">동국제약 ESG 기업 경영 현황</p>
+        <h2>ESG</h2>
+        <p class="esgP02">동국제약은 정성 어린 마음으로 건강한 가치를 전달하여 고객의 삶과 사회에 기여하는 대한민국 토탈 헬스케어 그룹이 되도록 최선을 다하겠습니다.</p>
+        <!-- <a href="#" title="ESG경영 바로가기" class="plus_btn btn01">자세히보기</a> -->
+      </article>
+      <a href="#" title="ESG경영 바로가기" class="plus_btn btn01">자세히보기</a>
+    </section>
+
+    <!-- 6. customer -->
+    <section class="tab_con_wrap">
+      <h2>고객센터</h2>
+      <article class="tab_con">
+        <h2>고객센터</h2>
+        <ul class="tab">
+          <li>
+            <a href="#" title="고객상담안내" class="tab_act">고객 상담 안내</a> 
+            <div class="con01">
+              <img src="./images/con06_01.png" alt="con06_01">
+              <div>
+                <h3>고객상담센터<br>운영 시간을 알려드립니다.</h3>
+                <p><span>동국제약 대표번호 </span>00-0000-0000</p>
+                <p><span>운영시간</span> 평일 09:00 ~ 18:00</p>
+                <p><span>점심시간</span> 12:00 ~ 13:30 (토, 일 및 법정 공휴일 휴무)</p>
+                <a href="#" title="상담안내 바로가기" class="plus_btn btn02">상담안내 바로가기</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" title="온라인 문의하기">온라인 문의하기</a>
+            <div class="con02">
+              <img src="./images/con06_02.png" alt="con06_02">
+              <div>
+                <h3>온라인 문의를 통해<br>간편하게 문의해보세요.</h3>
+                <p>동국제약 1: 1 온라인 상담입니다.</p>
+                <p>제품 및 질환에 대해 안내해드립니다.</p>
+                <p>궁금하신 점이 있다면 편하게 문의주세요.</p>
+                <a href="#" title="온라인 문의하기" class="plus_btn btn02">온라인 문의하기</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" title="가까운약국찾기">가까운 약국 찾기</a>
+            <div class="con03">
+              <img src="./images/con06_03.png" alt="con06_03">
+              <div>
+                <h3>구입 가능한 약국을<br>알려드립니다.</h3>
+                <p>약국 실제 재고 현황과 상이할 수 있습니다.</p>
+                <p>구입 가능 여부를 약국에 미리 확인하신 후 방문하시면 좋습니다.</p>
+                <p>버튼을 클릭해 가까운 약국을 찾아보세요.</p>
+                <a href="#" title="약국 찾기" class="plus_btn btn02">가까운 약국 찾기</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 페이지 시작 팝업 모달 -->
+    <div class="modal">
+      <div class="banner">
+        <a href="#" title="banner">
+          <img src="./images/popup2.jpg" alt="팝업이미지">
+        </a>
+        <input type="checkbox" id="ch">
+        <label for="ch">오늘 하루 열지 않음</label>
+        <input type="button" value="닫기 X" id="c_btn">
+      </div>
+    </div>
+  </main>
+  
+  <!-- 푸터영역 -->
+  <footer>
+    <div class="f_inner">
+
+      <ul class="f_btn">
+        <li><a href="#" title="위로 바로가기" class="t_btn button">TOP</a></li>
+        <li><a href="#" title="온라인 문의하기" class="button">문의</a></li>
+      </ul>
+
+      <nav class="f_lnb">
+        <ul>
+          <li><a href="#" title="개인정보 취급방침">개인정보 취급방침</a></li>
+          <li><a href="#" title="이용약관">이용약관</a></li>
+          <li><a href="#" title="사이트맵">사이트맵</a></li>
+        </ul>
+      </nav>
+
+      <p>부작용이 있을 수 있으니 첨부된 '사용상의 주의사항'을 잘 알고 의사, 약사와 상의하여 복용하십시오.</p>
+      <address>
+        <p>동국제약(주) 대한민국 서울특별시 00구 00대로 000(00동, 0000호)<br>
+          TEL) 00-0000-0000 FAX) 00-0000-0000
+        </p>
+        <p>COPYRIGHTS (C) 2018 DOOGKOOK CO. ALL RIGHTS RESERVED.</p>
+      </address>
+    </div>
+  </footer>
+</form>
+
+<!-- 제이쿼리 라이브러리 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<!-- 제이쿼리 쿠키 플러그인 -->
+<script src="./script/jquery.cookie.js"></script>
+
+<script>
+  // 자바스크립트 미디어쿼리 사용시 자동 새로고침
+  window.addEventListener("resize", function(){
+    setTimeout(function(){
+    window.location.reload();
+  });
+  });
+</script>
+
+<!-- 제이쿼리 모달창 쿠키-->
+<script src="./script/main_modal.js"></script>
+
+<!-- gnb 내비게이션 -->
+<script src="./script/navigation.js"></script>
+
+<!-- 메인 슬라이드 -->
+<script src="./script/main_slide.js"></script>
+
+<!-- 0. 모달창 -->
+<script src="./script/modal.js"></script>
+
+<!-- 1. 대표 브랜드 _ 슬라이드 제이쿼리 -->
+<script src="./script/brand.js"></script>
+
+<!-- 4. 뉴스&공지 6. 고객센터 _ 탭콘텐츠 제이쿼리 -->
+<script src="./script/tab.js"></script>
+<!-- <script src="./script/tab_con.js"></script> -->
+
+<!-- 탑버튼 제이쿼리 -->
+<script src="./script/top.js"></script>
+
+
+</body>
+</html>
